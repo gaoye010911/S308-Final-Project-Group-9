@@ -1,0 +1,44 @@
+﻿<Window x:Class="FinalProject1.Room_Management"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject1"
+        mc:Ignorable="d"
+        Title="Room_Management" Height="300" Width="300">
+    <Grid x:Name="gridRoomManagement" Background="#FFA58DB9">
+        <ComboBox x:Name="cmbRoomType" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="120" Background="White" SelectionChanged="cmbRoomType_SelectionChanged" IsSynchronizedWithCurrentItem="False" SelectedIndex="2" TabIndex="0">
+            <ComboBoxItem Content="One King" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="One King Deluxe" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Two Queens" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Two Queens Deluxe" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="One King Suite" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="One King Presidential Suite" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <TextBox x:Name="txtEditPrice" HorizontalAlignment="Left" Height="23" Margin="10,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="300" TabIndex="2"/>
+        <Label x:Name="lblCurrentPrice" Content="$189" HorizontalAlignment="Left" Margin="15,179,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label x:Name="lblCurrentPriceTitle1" Content="Current Price" HorizontalAlignment="Left" Margin="15,158,0,0" VerticalAlignment="Top" Width="120" FontSize="14.667"/>
+        <Label x:Name="lblRoomType" Content="Room Type" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="110" FontSize="14.667"/>
+        <TextBox x:Name="txtEditQuantity" HorizontalAlignment="Left" Height="23" Margin="153,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="40" TabIndex="1"/>
+        <Label x:Name="lblCurrentQuantiityTitle" Content="Current Quantity" HorizontalAlignment="Left" Margin="153,156,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.25,0.089" Width="120" FontSize="14.667"/>
+        <Label x:Name="lblCurrentQuantity" Content="30 Left" HorizontalAlignment="Left" Margin="153,179,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.555,0.275" Width="121"/>
+        <Label x:Name="lblEditQuantity" Content="Edit Quantity" HorizontalAlignment="Left" Margin="162,10,0,0" VerticalAlignment="Top" FontSize="14.667"/>
+        <Button x:Name="btnSubmitChange" Content="" HorizontalAlignment="Left" Margin="162,88,0,0" VerticalAlignment="Top" Width="103" Height="46" BorderBrush="#FFA58DB9" Click="btnSubmitChange_Click" TabIndex="3">
+            <Button.Background>
+                <ImageBrush ImageSource="Image/SUBMIT RM.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnBackToMainMenu" Content="Back to Main Window" HorizontalAlignment="Left" Margin="168,234,0,0" VerticalAlignment="Top" Width="124" Height="25" RenderTransformOrigin="0.5,0.5" BorderBrush="#FFF08113" Background="#FFC3A0A0" FontFamily="Segoe Marker" Click="btnBackToMainMenu_Click" TabIndex="4">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.932"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="lblEditPrice1" Content="Price&#xA;" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontSize="14.667" Height="30" Width="120"/>
+
+    </Grid>
+</Window>

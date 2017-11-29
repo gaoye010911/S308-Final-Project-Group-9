@@ -1,0 +1,33 @@
+﻿<Window x:Class="FinalProject1.ReservationDetail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject1"
+        mc:Ignorable="d"
+        Title="ReservationDetail" Height="335" Width="368">
+    <Grid x:Name="gridReservationDetail" Background="#FFA58DB9">
+        <Label x:Name="lblRoomPrice" Content="Room Price" HorizontalAlignment="Left" Height="29" Margin="147,132,0,0" VerticalAlignment="Top" Width="77" Foreground="#FFEA5E1C" FontWeight="Bold"/>
+        <Label x:Name="lblTitle" Content="Reservation Report" HorizontalAlignment="Left" Height="37" Margin="10,0,0,0" VerticalAlignment="Top" Width="225" FontSize="21.333" FontFamily="Segoe Marker"/>
+        <Label x:Name="lblRoomType" Content="Room Type" HorizontalAlignment="Left" Height="29" Margin="147,86,0,0" VerticalAlignment="Top" Width="93" Foreground="#FFEA5E1C" FontWeight="Bold"/>
+        <Label x:Name="lblNumRooms" Content="Number of Rooms" HorizontalAlignment="Left" Height="29" Margin="147,178,0,0" VerticalAlignment="Top" Width="111" Foreground="#FFEA5E1C" FontWeight="Bold"/>
+        <Label x:Name="lblEmail" Content="Email" HorizontalAlignment="Left" Height="29" Margin="10,178,0,0" VerticalAlignment="Top" Width="59" Foreground="#FFEA5E1C" Background="#00000000" FontWeight="Bold"/>
+        <Label x:Name="lblCheckInDate" Content="Check-in Date" HorizontalAlignment="Left" Height="29" Margin="147,37,0,0" VerticalAlignment="Top" Width="94" Foreground="#FFEA5E1C" FontWeight="Bold"/>
+        <Label x:Name="lblTotal" Content="Total" HorizontalAlignment="Left" Height="29" Margin="274,108,0,0" VerticalAlignment="Top" Width="59" Foreground="#FFEA5E1C" FontWeight="Bold" FontSize="14.667"/>
+        <Label x:Name="lblPhone" Content="Phone" HorizontalAlignment="Left" Height="29" Margin="10,132,0,0" VerticalAlignment="Top" Width="59" Foreground="#FFEA5E1C" Background="#00000000" FontWeight="Bold"/>
+        <Label x:Name="lblLastName" Content="Last Name" HorizontalAlignment="Left" Height="29" Margin="10,37,0,0" VerticalAlignment="Top" Width="71" Background="#00000000" Foreground="#FFEA5E1C" FontWeight="Bold"/>
+        <Label x:Name="lblFirstName" Content="First Name" HorizontalAlignment="Left" Height="29" Margin="10,86,0,0" VerticalAlignment="Top" Width="80" Foreground="#FFEA5E1C" Background="#00000000" FontWeight="Bold"/>
+        <Label x:Name="lblLastNameValue" Content="Lopes" HorizontalAlignment="Left" Height="29" Margin="10,60,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label x:Name="lblFirstNameValue" Content="Rebecca" HorizontalAlignment="Left" Height="29" Margin="10,108,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label x:Name="lblPhoneValue" Content="8123453321" HorizontalAlignment="Left" Height="29" Margin="10,154,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label x:Name="lblEmailValue" Content="rebecca@gmail.com" HorizontalAlignment="Left" Height="29" Margin="10,202,0,0" VerticalAlignment="Top" Width="124"/>
+        <Label x:Name="lblCheckinDateValue" Content="11/10/2017" HorizontalAlignment="Left" Height="29" Margin="147,60,0,0" VerticalAlignment="Top" Width="76"/>
+        <Label x:Name="lblRoomTypeValue" Content="Two Queens" HorizontalAlignment="Left" Height="29" Margin="147,108,0,0" VerticalAlignment="Top" Width="76"/>
+        <Label x:Name="lblPriceValue" Content="$189" HorizontalAlignment="Left" Height="29" Margin="147,154,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="lblNumRoomsValue" Content="1" HorizontalAlignment="Left" Height="29" Margin="147,202,0,0" VerticalAlignment="Top" Width="40"/>
+        <Label x:Name="lblTotalAmount" Content="$1,061.15" HorizontalAlignment="Left" Height="29" Margin="274,132,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="btnMainWindow" Content="Back to Main Window" HorizontalAlignment="Left" Height="29" Margin="217,265,0,0" VerticalAlignment="Top" Width="133" Click="button_Click" Background="#FFC3A0A0" BorderBrush="#FFF08113" FontFamily="Segoe Marker"/>
+        <Button x:Name="button" Content="Back to Search Page" HorizontalAlignment="Left" Height="29" Margin="10,265,0,0" VerticalAlignment="Top" Width="135" Background="#FFC3A0A0" BorderBrush="#FFF08113" FontFamily="Segoe Marker" Click="button_Click_1"/>
+
+    </Grid>
+</Window>
