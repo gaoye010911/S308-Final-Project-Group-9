@@ -128,3 +128,6 @@ I:\FinalProject1-1 Luo (2) (1)\FinalProject1-1 Luo\FinalProject1-1 Luo\FinalProj
 I:\S308 Final Project\FinalProject\FinalProject1\FinalProject1\bin\Debug\FinalProject1.exe.config
 I:\S308 Final Project\FinalProject\FinalProject1\FinalProject1\obj\Debug\FinalProject1.exe
 I:\S308 Final Project\FinalProject\FinalProject1\FinalProject1\obj\Debug\FinalProject1.pdb
+I:\Final Project C\FinalProject\FinalProject1\FinalProject1\bin\Debug\FinalProject1.exe.config
+I:\Final Project C\FinalProject\FinalProject1\FinalProject1\obj\Debug\FinalProject1.exe
+I:\Final Project C\FinalProject\FinalProject1\FinalProject1\obj\Debug\FinalProject1.pdb
